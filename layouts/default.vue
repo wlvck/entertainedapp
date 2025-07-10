@@ -1,6 +1,9 @@
 <template>
-  <div>
+  <div class="min-h-[100vh] flex flex-col relative">
     <Header />
-    <slot />
+    <main class="flex-[1_1_auto]">
+      <slot />
+    </main>
+    <Footer />
   </div>
 </template>

@@ -14,8 +14,25 @@
 }
 
 @theme {
-  --color-primary-black: #15161e;
-  --color-primary-purple: #7886bd;
-  --color-primary-blue: #2ac3de;
-  --color-primary-green: #9ece6a;
+  --color-black-100: #15161e;
+  --color-black-200: #1b1d27;
+  --color-black-300: #25283c;
+  --color-black-400: #1c1d27;
+  --color-black-500: #0f0f16;
+
+  --color-purple-100: #7886bd;
+
+  --color-blue-100: #2ac3de;
+
+  --color-green-100: #9ece6a;
+}
+
+body {
+  background: var(--color-black-500);
+}
+
+.set-max-width {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
 }
