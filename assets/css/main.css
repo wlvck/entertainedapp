@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Recursive:wght@300..1000&display=swap");
+
+@layer theme, base, components, utilities;
+
+@import "tailwindcss/theme" layer(theme);
+@import "tailwindcss/preflight" layer(base);
+@import "tailwindcss/utilities" layer(utilities);
+
+@import "tailwindcss";
+
+.recursive-font {
+  font-family: "Recursive", sans-serif;
+  font-optical-sizing: auto;
+}
+
+@theme {
+  --color-primary-black: #15161e;
+  --color-primary-purple: #7886bd;
+  --color-primary-blue: #2ac3de;
+  --color-primary-green: #9ece6a;
+}
