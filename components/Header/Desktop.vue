@@ -17,7 +17,7 @@
           </div>
         </div>
       </router-link>
-      <div class="flex items-center justify-center gap-5">
+      <div class="flex items-center justify-center gap-5 nav">
         <router-link
           :to="{ name: 'home' }"
           class="flex items-center gap-2 transition-all duration-200"
@@ -51,10 +51,10 @@
 </template>
 
 <style>
-.router-link-active span {
+.nav .router-link-active span {
   color: var(--color-primary-green);
 }
-.router-link-active svg g path {
+.nav .router-link-active svg g path {
   fill: var(--color-primary-green);
 }
 </style>
