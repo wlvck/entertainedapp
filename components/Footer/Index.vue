@@ -1,6 +1,6 @@
 <template>
   <div class="bg-black-100 px-6 py-8 border-t-[2px] border-t-black-200">
-    <footer class="grid grid-cols-2 gap-6 text-white set-max-width">
+    <footer class="grid sm:grid-cols-2 gap-6 text-white set-max-width">
       <section class="bg-black-400 p-6 rounded-[4px] text-purple-100">
         <p>© 2025 QazaqType.app</p>
         <p>

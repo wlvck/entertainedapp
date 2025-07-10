@@ -20,11 +20,18 @@
   --color-black-400: #1c1d27;
   --color-black-500: #0f0f16;
 
+  --color-gray-100: #232537;
+
   --color-purple-100: #7886bd;
 
   --color-blue-100: #2ac3de;
 
   --color-green-100: #9ece6a;
+  --color-green-200: #9ece6a38;
+}
+
+* {
+  user-select: none;
 }
 
 body {

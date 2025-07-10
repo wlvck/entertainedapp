@@ -50,6 +50,7 @@
         <icon
           name="icon:settings"
           class="hover:rotate-90 cursor-pointer transition-all duration-200"
+          @click.prevent="navigateTo({ name: 'settings' })"
         />
       </div>
     </div>
