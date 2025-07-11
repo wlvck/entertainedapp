@@ -172,13 +172,17 @@
         <div>alt</div>
       </div>
       <div class="command black-btn">
-        <div>cmd</div>
+        <div>
+          <icon name="icon:command" size="13" class="mx-auto mt-1" />
+        </div>
       </div>
       <div class="space black-btn">
         <div />
       </div>
       <div class="command black-btn">
-        <div>cmd</div>
+        <div>
+          <icon name="icon:command" size="13" class="mx-auto mt-1" />
+        </div>
       </div>
       <div class="alt black-btn">
         <div>alt</div>
@@ -221,6 +225,9 @@
 
   .black-btn {
     background: transparent;
+    transition:
+      transform 0.3s ease,
+      box-shadow 0.3s ease;
     padding: 2px;
     touch-action: manipulation;
     vertical-align: middle;
@@ -230,6 +237,10 @@
     grid-gap: 0;
     margin-bottom: 0;
     cursor: pointer;
+
+    &:active {
+      transform: scale(0.98);
+    }
 
     div {
       color: hsl(from #9aa5ce h s calc(l + 10));
@@ -395,6 +406,10 @@
       display: grid;
       place-content: center;
     }
+  }
+
+  .bump div {
+    background-color: #9ece6a82 !important;
   }
 }
 </style>
